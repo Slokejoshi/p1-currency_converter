@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Audiowide&family=Noto+Sans:ital,wght@0,700;1,300&family=Open+Sans:wght@400;700&family=Poppins:wght@200;400;600&display=swap');
+*{
+ margin: 0;
+ padding: 0;  
+  
+}
+nav
+{
+    background-color: rgb(240, 233, 223);
+    font-family: 'Noto Sans', sans-serif;
+    display: flex;
+    font-size: 1.1rem;
+    padding: 23px;
+}
+
+nav ul li{
+    list-style-type: none;
+    margin: 0 1rem;
+    /* float: right; */
+}
+nav ul{
+    display: flex;
+}
+nav li a {
+    text-decoration: none;
+    color: black;
+    transition: all;
+    transition-duration: 500ms;
+}
+nav li a:hover{
+    color: rgb(216, 100, 37);
+
+}
+.logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 1rem;
+}
+.container
+{
+    min-height: 100vh;
+    font-family: 'poopins',sans-serif;
+    /* background-color: rgb(210, 97, 97); */
+    max-width: 80vw;
+    margin: auto;
+}
+.container h1{
+    text-align: center;
+    margin: 1rem 0;
+}
+.container form input[type="number"], select, label{
+    /* background-color: aquamarine; */
+    font-size: 1.5rem;
+    margin: 0.5rem 0;
+    width: 23vw;
+}
+.container form select option{
+    background-color: rgb(137, 126, 126);
+    
+}
+
+.container form{
+    display: flex;
+    flex-direction: column;
+}
+.container form .btn{
+    width: 10vw;
+    font-size: 1.5rem;
+    margin-top: 1rem;
+    padding: 0.5rem;
+    border-radius: 1rem;
+    background-color: rgb(222, 171, 143);
+    font-weight: bold;
+    cursor: pointer;
+}
+.container form .btn:hover{
+    background-color: rgb(227, 134, 83);
+}
+/* .output{
+    /* display:none; x
+} */
+
+.output h2{
+    margin-top: 1rem;
+}
+.output table{
+    margin-top: 1rem;
+    width: 50vw;
+    text-align: center;
+    border: 2px solid black;
+    font-size: 1.2rem;
+}
+footer{
+    text-align: center;
+    font-family: 'poopins',sans-serif;
+}
